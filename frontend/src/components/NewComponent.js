@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 const NewComponent = ({ layout, children }) => (
   <div className={"wrapper " + (layout.isBoxed ? "wrapper-boxed" : "")}>
-    {children}
+    {children} - GIT Demo
   </div>
 );
 
