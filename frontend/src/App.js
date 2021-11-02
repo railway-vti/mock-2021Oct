@@ -13,6 +13,7 @@ const App = () => (
       newestOnTop={true}
       position="top-right"
       transitionIn="fadeIn"
+      
       transitionOut="fadeOut"
       progressBar
       closeOnToastrClick
